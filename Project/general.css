@@ -1,0 +1,184 @@
+@font-face{
+
+	font-family: Mooli;
+	src: url(../fonts/Mooli-Regular.ttf);
+}
+
+body {
+  margin: 0;
+}
+
+#container {
+  max-width: 60em;
+  margin: auto;
+}
+
+header, nav, footer {
+  padding: 1em;
+}
+
+h1, p, nav {
+  font-family: Mooli;
+}
+
+p {
+  font-size: 1em;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.selected {
+  background-color: rgb(255, 0, 0);
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.3em;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+article {
+  padding: 1em;
+  padding-bottom: 0;
+}
+
+article > p {
+  font-size: 1.2em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a:link, a:visited {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+h1 > a:link, h1 > a:visited {
+  text-transform: none;
+}
+
+a:hover {
+  background-color: rgb(0, 110, 255);
+}
+
+a:active {
+  background-color: rgb(247, 0, 255);
+}
+
+a.sections:hover {
+  opacity: 0.5;
+}
+
+a.sections:active {
+  opacity: 1;
+}
+
+@media (min-width: 30em) {
+
+  nav {
+    flex-direction: row;
+  }
+
+  nav > a {
+    margin-right: 1em;
+  }
+
+}
+
+@media (min-width: 45em) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+  article {
+    padding-top: 0;
+  }
+}
+
+#central_img{
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  margin-top: 10%; 
+  margin-bottom: 10%;
+}
+
+@media (min-width: 720px) {
+  #content {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  #index {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.day-mode {
+  background-color: white;
+  color: black;
+}
+
+.night-mode {
+  background-color: black;
+  color: white;
+}
+
+.day-mode h1 a:link,
+.day-mode h1 a:visited,
+.day-mode footer a:link,
+.day-mode footer a:visited,
+.day-mode .sections,
+.night-mode-text.day-mode h1 a:link,
+ody.night-mode-text.day-mode h1 a:visited,
+.night-mode-text.day-mode footer a:link,
+ody.night-mode-text.day-mode footer a:visited,
+.night-mode-text.day-mode .sections {
+  color: black; /* Day mode text color */
+}
+
+.night-mode h1 a:link,
+.night-mode h1 a:visited,
+.night-mode footer a:link,
+.night-mode footer a:visited,
+.night-mode .sections,
+.day-mode-text.night-mode h1 a:link,
+.day-mode-text.night-mode h1 a:visited,
+.day-mode-text.night-mode footer a:link,
+.day-mode-text.night-mode footer a:visited,
+.day-mode-text.night-mode .sections {
+  color: white; /* Night mode text color */
+}
+
+.sections {
+  font-size: 16px; /* Set an initial font size */
+}
+
+.grey-button {
+  background-color: grey;
+}
+
+footer a:link,
+footer a:visited {
+  color: black; 
+  text-transform: none;
+}
+
+h1{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+}

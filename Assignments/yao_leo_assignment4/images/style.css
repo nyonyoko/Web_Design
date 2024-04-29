@@ -1,0 +1,56 @@
+img {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+}
+
+body{
+  background-image: url('./images/background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.centered{
+  text-align: center;
+  position: fixed;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.text{
+  color: white;
+  font-family: 'Black Ops One', sans-serif;
+  font-size: 1em;
+}
+
+.center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottomleft {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.bottomright {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.topleft {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.topright {
+  position: fixed;
+  top: 0;
+  right: 0;
+}

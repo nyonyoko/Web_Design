@@ -1,0 +1,77 @@
+@font-face{
+
+	font-family: Mooli;
+	src: url(../fonts/Mooli-Regular.ttf);
+}
+
+body{
+
+	background: rgb(135, 2, 93);
+	text-align: center;
+}
+
+h1{
+  font-family: Mooli;
+  font-size: 10em;
+}
+
+p{
+
+font-family: 'Oswald', sans-serif;
+font-size: 4em;
+margin-top: 100px;
+
+}
+
+a{
+
+	font-family: Mooli;
+  font-size: 2em;
+  color: rgb(227, 249, 216);
+}
+
+a:hover{
+
+font-size: 2.5em;
+  color: rgb(241, 206, 153);
+}
+
+
+a:visited{
+
+color: black;
+}
+
+a:active{
+
+color: green;
+}
+
+img{
+  float: left; 
+  margin: 10px;
+	border-radius: 200px;
+	border: 10px dashed yellow;
+}
+
+.links{
+
+	margin: 30%;
+}
+
+#para_1{
+
+	font-size: 5em;
+}
+
+.custom-paragraph {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5em;
+    color: blue;
+}
+
+.custom-footer {
+    background-color: lightgray;
+    padding: 20px;
+    border: 2px solid darkgray;
+}
